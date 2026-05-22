@@ -7,7 +7,7 @@ A curated static site for electronic music documentaries. Chinese is the default
 ## 在线预览 / Live
 
 - GitHub Pages: https://electro-dig.github.io/electronic-music-documentary-atlas/
-- Netlify: 待部署后补充
+- Netlify: https://emda-documentary-atlas.netlify.app/
 
 ## 内容 / Content
 
