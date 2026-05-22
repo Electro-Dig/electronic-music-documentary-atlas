@@ -15,6 +15,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/film-wall.css" />
+    <link rel="stylesheet" href="assets/timeline-view.css" />
   </head>
   <body>
     <header class="site-header">
@@ -25,47 +27,51 @@
           <small>Electronic Music Documentary Atlas</small>
         </span>
       </a>
-      <nav class="top-nav" aria-label="站点导航">
-        <a href="#library">片库</a>
-        <a href="#routes">观看路线</a>
-        <a href="#method">方法</a>
-      </nav>
+      <div class="header-actions">
+        <nav class="top-nav" aria-label="站点导航">
+          <a href="#library" data-i18n="nav.library">片库</a>
+          <a href="lab.html" data-i18n="nav.lab">实验室</a>
+          <a href="#routes" data-i18n="nav.routes">观看路线</a>
+          <a href="#method" data-i18n="nav.method">方法</a>
+        </nav>
+        <div class="language-switch" aria-label="Language">
+          <button type="button" data-locale="zh" aria-pressed="true">中文</button>
+          <button type="button" data-locale="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
+      <section class="hero home-wall-hero" aria-labelledby="hero-title">
+        <div id="home-film-wall-root" class="home-film-wall-root"></div>
         <div class="hero-copy">
-          <p class="eyebrow">Curated archive / watch guide / knowledge map</p>
-          <h1 id="hero-title">
-            <span>从乐器、录音室、</span>
-            <span>舞池和城市</span>
-            <span>重新进入电子音乐史。</span>
-          </h1>
-          <p class="hero-lede">
-            这不是一个资源帖，也不是影迷评分站。这里把 A 类电子音乐纪录片整理成可浏览、可筛选、可追溯来源的策展档案。
+          <p class="eyebrow" data-i18n="hero.eyebrow">Spatial film wall / curated archive</p>
+          <h1 id="hero-title" data-i18n="hero.title">电子音乐纪录片地图</h1>
+          <p class="hero-lede" data-i18n="hero.lede">
+            从乐器、录音室、舞池到城市现场，按封面、线索和观看渠道浏览。
           </p>
           <div class="hero-actions" aria-label="快速入口">
-            <a class="button primary" href="#library">浏览 A 类片库</a>
-            <button class="button" type="button" data-watch-now>只看有观看渠道</button>
+            <a class="button primary" href="#library" data-i18n="hero.browse">浏览片库</a>
+            <button class="button" type="button" data-watch-now data-i18n="hero.watchable">只看可观看</button>
           </div>
         </div>
         <aside class="hero-panel" aria-label="片库概览">
           <div class="stat-grid">
             <div>
               <span id="stat-count">--</span>
-              <small>A 类片目</small>
+              <small data-i18n="stats.total">重要片目</small>
             </div>
             <div>
               <span id="stat-core">--</span>
-              <small>S 史纲核心</small>
+              <small data-i18n="stats.core">核心影片</small>
             </div>
             <div>
               <span id="stat-free">--</span>
-              <small>含免费线索</small>
+              <small data-i18n="stats.free">含免费线索</small>
             </div>
             <div>
               <span id="stat-sources">--</span>
-              <small>来源记录</small>
+              <small data-i18n="stats.sources">来源记录</small>
             </div>
           </div>
           <div class="signal-strip" aria-hidden="true">
@@ -76,8 +82,11 @@
 
       <section id="routes" class="routes-section" aria-labelledby="routes-title">
         <div class="section-heading">
-          <p class="eyebrow">Start with a path</p>
-          <h2 id="routes-title">先从一条观看路线进入</h2>
+          <div>
+            <p class="eyebrow" data-i18n="routes.eyebrow">Curated paths</p>
+            <h2 id="routes-title" data-i18n="routes.title">按线索观看</h2>
+          </div>
+          <p class="section-note" data-i18n="routes.note">从入门、机器、舞池、欧洲线索和女性先锋进入。</p>
         </div>
         <div class="route-grid" id="route-grid"></div>
       </section>
@@ -85,72 +94,88 @@
       <section id="library" class="library-section" aria-labelledby="library-title">
         <div class="section-heading library-heading">
           <div>
-            <p class="eyebrow">A-list library</p>
-            <h2 id="library-title">A 类电子音乐纪录片片库</h2>
+            <p class="eyebrow" data-i18n="library.eyebrow">Curated library</p>
+            <h2 id="library-title" data-i18n="library.title">电子音乐纪录片片库</h2>
           </div>
-          <p class="result-count" id="result-count">正在加载片库…</p>
+          <p class="result-count" id="result-count" data-i18n="library.loading">正在加载片库…</p>
         </div>
 
-        <form class="filters" id="filters" aria-label="片库筛选">
+        <form class="filters tag-browser" id="filters" aria-label="片库筛选">
           <label class="search-field">
-            <span>搜索</span>
-            <input id="search-input" type="search" placeholder="片名、人物、城市、主题…" />
+            <span data-i18n="filters.search">搜索</span>
+            <input id="search-input" type="search" placeholder="片名、人物、主题、技术…" data-i18n-placeholder="library.searchPlaceholder" />
           </label>
-          <label>
-            <span>等级</span>
-            <select id="grade-filter"></select>
-          </label>
-          <label>
-            <span>主题</span>
-            <select id="theme-filter"></select>
-          </label>
-          <label>
-            <span>地区</span>
-            <select id="region-filter"></select>
-          </label>
-          <label>
-            <span>观看状态</span>
-            <select id="watch-filter"></select>
-          </label>
-          <label>
-            <span>排序</span>
-            <select id="sort-filter">
-              <option value="year-asc">按年份从早到晚</option>
-              <option value="year-desc">按年份从晚到早</option>
-              <option value="grade">按核心等级</option>
-              <option value="title">按片名</option>
-            </select>
-          </label>
-          <button class="button reset" id="reset-filters" type="button">重置</button>
+          <div class="filter-tools">
+            <label>
+              <span data-i18n="filters.sort">排序</span>
+              <select id="sort-filter">
+                <option value="year-asc" data-i18n="sort.yearAsc">按年份从早到晚</option>
+                <option value="year-desc" data-i18n="sort.yearDesc">按年份从晚到早</option>
+                <option value="title" data-i18n="sort.title">按原名</option>
+              </select>
+            </label>
+            <button class="button reset" id="reset-filters" type="button" data-i18n="filters.reset">重置</button>
+          </div>
+          <div class="tag-browser-panel">
+            <div class="selected-tags" id="selected-tags" data-i18n="filters.anyTag">可多选，按任一标签匹配</div>
+            <div class="tag-chip-groups" id="tag-chip-groups"></div>
+          </div>
         </form>
 
-        <div class="film-grid" id="film-grid" aria-live="polite"></div>
+        <div class="library-explorer">
+          <aside class="library-curation-panel" aria-label="片库浏览说明">
+            <p class="eyebrow" data-i18n="library.panelEyebrow">Contact sheet</p>
+            <h3 data-i18n="library.panelTitle">按封面浏览</h3>
+            <p data-i18n="library.panelBody">
+              每张封面通向一部影片档案，包含简介、主题标签、来源和可观看渠道。
+            </p>
+            <div class="library-signal-list" aria-hidden="true">
+              <span>Poster first</span>
+              <span>Curated tags</span>
+              <span>Verified links</span>
+            </div>
+          </aside>
+          <div class="library-board">
+            <div class="film-grid film-contact-sheet" id="film-grid" aria-live="polite"></div>
+          </div>
+        </div>
+
+        <aside class="release-index-panel" aria-labelledby="timeline-title">
+          <div class="release-index-heading">
+            <div>
+              <p class="eyebrow" data-i18n="timeline.eyebrow">Release index</p>
+              <h2 id="timeline-title" data-i18n="timeline.title">按年份浏览</h2>
+            </div>
+            <p class="section-note" data-i18n="timeline.note">只按发行年排序，不代表影片覆盖年代。</p>
+          </div>
+          <div id="signal-timeline-root"></div>
+        </aside>
       </section>
 
       <section id="method" class="method-section" aria-labelledby="method-title">
         <div class="section-heading">
-          <p class="eyebrow">Method</p>
-          <h2 id="method-title">片单标准</h2>
+          <p class="eyebrow" data-i18n="method.eyebrow">About</p>
+          <h2 id="method-title" data-i18n="method.title">关于这个片单</h2>
         </div>
         <div class="method-grid">
           <article>
-            <h3>不是所有音乐纪录片都进入 A 类</h3>
-            <p>优先选择能够解释电子音乐史结构性节点的影片：乐器、技术、录音室、城市、舞池、版权、媒介和社群。</p>
+            <h3 data-i18n="method.standardTitle">选择标准</h3>
+            <p data-i18n="method.standardBody">优先收录能解释电子音乐史关键节点的影片：乐器、录音室、城市、舞池、媒介和社群。</p>
           </article>
           <article>
-            <h3>免费链接不等于公开放映授权</h3>
-            <p>观看渠道分为官方、机构、平台、发行方、用户上传和未核验。公开活动需要单独看授权状态。</p>
+            <h3 data-i18n="method.watchTitle">观看渠道</h3>
+            <p data-i18n="method.watchBody">链接按官方、平台、馆藏、用户上传和待核验来源区分；公开放映仍需另行确认授权。</p>
           </article>
           <article>
-            <h3>策展判断和来源并列</h3>
-            <p>每部影片不仅要有简介，还要说明它在电子音乐史中的位置，并保留可追溯的资料来源。</p>
+            <h3 data-i18n="method.updateTitle">持续更新</h3>
+            <p data-i18n="method.updateBody">片名、年份、导演、简介和片源会继续核对。整理：@电子音乐考古小分队。</p>
           </article>
         </div>
       </section>
     </main>
 
     <dialog class="film-dialog" id="film-dialog" aria-labelledby="dialog-title">
-      <button class="dialog-close" type="button" aria-label="关闭详情">×</button>
+      <button class="dialog-close" type="button" aria-label="关闭详情" data-i18n-aria-label="dialog.close">×</button>
       <div id="dialog-content"></div>
     </dialog>
 
@@ -160,6 +185,8 @@
       </div>
     </template>
 
+    <script src="assets/timeline-data.js"></script>
+    <script src="assets/film-wall.js" type="module"></script>
     <script src="assets/app.js" type="module"></script>
   </body>
 </html>

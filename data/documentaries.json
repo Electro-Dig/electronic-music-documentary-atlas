@@ -9,8 +9,8 @@
     ],
     "year": "1993",
     "sort_year": 1993,
-    "runtime": "83-84 min",
-    "runtime_minutes": 84,
+    "runtime": "83 min",
+    "runtime_minutes": 83,
     "directors": [
       "Steven M. Martin"
     ],
@@ -60,13 +60,15 @@
     },
     "watch_channels": [
       {
-        "platform": "正文观看渠道待拆分",
-        "access_type": "unknown",
-        "reliability": "uncertain",
-        "region": "unknown",
-        "subtitle": "unknown",
+        "platform": "Xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/67efb117000000001c00df09",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
         "public_screening": "permission_required",
-        "note": "现有卡片正文记录了观看线索，但尚未拆分成平台级结构。"
+        "source_kind": "my_upload",
+        "display_label": "我的字幕"
       }
     ],
     "sources": [
@@ -77,13 +79,13 @@
         "reliability": "institution"
       },
       {
-        "title": "netflix.com",
-        "url": "https://www.netflix.com/Movie/Theremin-An-Electronic-Odyssey/70047277",
-        "type": "source",
-        "reliability": "uncertain"
+        "title": "justwatch.com",
+        "url": "https://www.justwatch.com/us/movie/theremin-an-electronic-odyssey",
+        "type": "platform",
+        "reliability": "platform"
       }
     ],
-    "summary": "围绕特雷门琴发明者 Léon Theremin、演奏家 Clara Rockmore 以及电子乐器进入 20 世纪大众想象的过程展开。影片把乐器史、苏联/美国冷战前史、电影声音和流行音乐中的未来感连接起来。",
+    "summary": "围绕发明家 Léon Theremin 与演奏家 Clara Rockmore 展开，追踪特雷门琴从苏联实验、美国舞台到科幻电影和流行文化的传播。影片把早期电子乐器、身体控制、冷战阴影和 Robert Moog 等后继者连接起来，是理解电子声音如何进入大众想象的入口。",
     "core_argument": "电子音乐并不是从舞池或合成器品牌开始，而是从一种关于身体、不可见电磁场和未来声音的技术想象开始。",
     "note_path": "纪录片卡片/Theremin An Electronic Odyssey.md"
   },
@@ -97,8 +99,8 @@
     ],
     "year": "1998",
     "sort_year": 1998,
-    "runtime": "74-75 min; 截图中的 94 min 待核验",
-    "runtime_minutes": 94,
+    "runtime": "75 min",
+    "runtime_minutes": 75,
     "directors": [
       "Iara Lee",
       "Peter Shapiro"
@@ -163,13 +165,26 @@
     },
     "watch_channels": [
       {
-        "platform": "正文观看渠道待拆分",
-        "access_type": "unknown",
-        "reliability": "uncertain",
-        "region": "unknown",
-        "subtitle": "unknown",
+        "platform": "Xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/67beb27e000000000d016622",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
         "public_screening": "permission_required",
-        "note": "现有卡片正文记录了观看线索，但尚未拆分成平台级结构。"
+        "source_kind": "my_upload",
+        "display_label": "我的字幕"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch?v=icpDt6aQDww",
+        "access_type": "free",
+        "reliability": "official",
+        "region": "global",
+        "subtitle": "en_auto",
+        "public_screening": "permission_required",
+        "source_kind": "official_upload",
+        "display_label": "YouTube/官方完整片"
       }
     ],
     "sources": [
@@ -190,9 +205,15 @@
         "url": "https://www.qagoma.qld.gov.au/cinema/screening/modulations-cinema-for-the-ear",
         "type": "institution",
         "reliability": "institution"
+      },
+      {
+        "title": "Cultures of Resistance Films YouTube - Modulations full documentary",
+        "url": "https://www.youtube.com/watch?v=icpDt6aQDww",
+        "type": "platform",
+        "reliability": "official"
       }
     ],
-    "summary": "以 1990 年代末电子音乐爆发期为视角，从学院先锋、disco、electro、house、techno、jungle 到 rave/megaparty 建立一条快速总览。",
+    "summary": "Iara Lee 在 90 年代电子舞曲爆发现场回望电子音乐史，从 Cage、Stockhausen、Pierre Henry 到 disco、Chicago house、Detroit techno、jungle 与 rave。影片像一部高速采样拼贴，适合建立电子音乐与俱乐部文化的整体坐标。",
     "core_argument": "它是“电子音乐作为 20 世纪声音革命”的经典入门，但也带有 90 年代 rave 视角的局限。",
     "note_path": "纪录片卡片/Modulations Cinema for the Ear.md"
   },
@@ -278,8 +299,7 @@
         "reliability": "user_upload",
         "region": "China",
         "subtitle": "unknown",
-        "public_screening": "not_recommended",
-        "note": "用户上传或搬运线索，不作为公开放映依据。"
+        "public_screening": "permission_required"
       }
     ],
     "sources": [
@@ -302,7 +322,7 @@
         "reliability": "user_upload"
       }
     ],
-    "summary": "Channel 4 三集式 house music 史，从 disco/NY/Chicago 到 UK acid house、rave 与欧洲舞曲扩散。",
+    "summary": "Channel 4 三集纪录片，把 house 从纽约 disco 和 Chicago Warehouse 现场讲到英国 acid house、rave 与欧洲扩散。它以 Frankie Knuckles、Marshall Jefferson、Jesse Saunders 等人物为线索，把舞池、DJ、鼓机和青年文化连成一条 house 史入门路径。",
     "core_argument": "House 不是单一风格，而是黑人、拉丁、酷儿舞池、DJ 技术、俱乐部制度和英国青年文化共同生产的社会形式。",
     "note_path": "纪录片卡片/Pump Up the Volume A History of House Music.md"
   },
@@ -374,26 +394,22 @@
       "rights_status": "needs_review",
       "alt": "Poster for Maestro"
     },
-    "watch_channels": [
-      {
-        "platform": "正文观看渠道待拆分",
-        "access_type": "unknown",
-        "reliability": "uncertain",
-        "region": "unknown",
-        "subtitle": "unknown",
-        "public_screening": "permission_required",
-        "note": "现有卡片正文记录了观看线索，但尚未拆分成平台级结构。"
-      }
-    ],
+    "watch_channels": [],
     "sources": [
       {
         "title": "themoviedb.org",
         "url": "https://www.themoviedb.org/movie/75462-maestro?language=en-US",
         "type": "database",
         "reliability": "secondary"
+      },
+      {
+        "title": "imdb.com",
+        "url": "https://www.imdb.com/title/tt0390307/",
+        "type": "database",
+        "reliability": "secondary"
       }
     ],
-    "summary": "讲 Paradise Garage、The Loft 和纽约地下舞曲文化，聚焦 DJ、声音系统、空间与社群。",
+    "summary": "Josell Ramos 追溯纽约地下舞曲文化的早期谱系，重点放在 The Loft、The Gallery、Paradise Garage 以及 David Mancuso、Larry Levan、Nicky Siano、Frankie Knuckles 等 DJ。影片资料粗粝，却保存了 disco、garage 与 house 之前的俱乐部记忆。",
     "core_argument": "它把 disco/house 的历史从唱片和风格拉回到场地、身体、DJ 劳动与社群组织。",
     "note_path": "纪录片卡片/Maestro.md"
   },
@@ -407,11 +423,10 @@
     ],
     "year": "2003",
     "sort_year": 2003,
-    "runtime": "约 58-60 min",
-    "runtime_minutes": 60,
+    "runtime": "59 min",
+    "runtime_minutes": 59,
     "directors": [
-      "BBC Four",
-      "Radiophonic Workshop documentary"
+      "Roger Pomphrey"
     ],
     "countries": [
       "United Kingdom"
@@ -465,17 +480,7 @@
       "rights_status": "needs_review",
       "alt": "Poster for The Alchemists of Sound"
     },
-    "watch_channels": [
-      {
-        "platform": "正文观看渠道待拆分",
-        "access_type": "unknown",
-        "reliability": "uncertain",
-        "region": "unknown",
-        "subtitle": "unknown",
-        "public_screening": "permission_required",
-        "note": "现有卡片正文记录了观看线索，但尚未拆分成平台级结构。"
-      }
-    ],
+    "watch_channels": [],
     "sources": [
       {
         "title": "tvguide.com",
@@ -484,13 +489,13 @@
         "reliability": "secondary"
       },
       {
-        "title": "wikidelia.net",
-        "url": "https://wikidelia.net/wiki/Alchemists_of_Sound",
-        "type": "source",
-        "reliability": "uncertain"
+        "title": "imdb.com",
+        "url": "https://www.imdb.com/title/tt1147623/",
+        "type": "database",
+        "reliability": "secondary"
       }
     ],
-    "summary": "介绍 BBC Radiophonic Workshop 如何用磁带剪辑、振荡器、广播效果音和电子音乐技术塑造英国电视与广播声音，尤其是 Doctor Who 等节目中的未来声响。",
+    "summary": "BBC Four 纪录片，回顾 BBC Radiophonic Workshop 如何用磁带剪辑、振荡器和实验录音为广播、电视与 Doctor Who 等节目制造声音。它把电子音乐放回公共广播机构、声音设计劳动和英国流行文化基础设施中理解。",
     "core_argument": "声音实验室把电子音乐从学院实验带入大众传媒，证明电子声音首先也是一种广播、电视和制度化生产的技术。",
     "note_path": "纪录片卡片/The Alchemists of Sound.md"
   },
@@ -504,8 +509,8 @@
     ],
     "year": "2004",
     "sort_year": 2004,
-    "runtime": "70-72 min",
-    "runtime_minutes": 72,
+    "runtime": "70 min",
+    "runtime_minutes": 70,
     "directors": [
       "Hans Fjellestad"
     ],
@@ -559,13 +564,15 @@
     },
     "watch_channels": [
       {
-        "platform": "正文观看渠道待拆分",
-        "access_type": "unknown",
-        "reliability": "uncertain",
-        "region": "unknown",
-        "subtitle": "unknown",
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1Nh411k7YC/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
         "public_screening": "permission_required",
-        "note": "现有卡片正文记录了观看线索，但尚未拆分成平台级结构。"
+        "source_kind": "fan_sub",
+        "display_label": "中文字幕"
       }
     ],
     "sources": [
@@ -582,13 +589,13 @@
         "reliability": "secondary"
       },
       {
-        "title": "en.wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Moog_(film",
-        "type": "wiki",
-        "reliability": "secondary"
+        "title": "wexarts.org",
+        "url": "https://wexarts.org/film-video/moog",
+        "type": "institution",
+        "reliability": "institution"
       }
     ],
-    "summary": "围绕 Robert Moog 的人物肖像，讨论 Moog synthesizer 的技术、音乐和文化后果。影片不是合成器通史，而是发明者与乐器神话的近距离观察。",
+    "summary": "Hans Fjellestad 贴近 Robert Moog 的晚年工作与巡演，穿插 Keith Emerson、Money Mark、DJ Spooky、Stereolab 等访谈，讨论 Moog synthesizer 如何从工程发明变成音乐人可触摸、可表演的电子乐器神话。它适合放在“机器与录音室”线索中理解发明者、界面和声音想象的关系。",
     "core_argument": "合成器不是抽象技术，而是由发明者、公司、演奏者和音乐工业共同塑造的文化物。",
     "note_path": "纪录片卡片/Moog.md"
   },
@@ -669,8 +676,18 @@
         "reliability": "platform",
         "region": "unknown",
         "subtitle": "unknown",
+        "public_screening": "permission_required"
+      },
+      {
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV15mLpzCEcU/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "no_sub",
         "public_screening": "permission_required",
-        "note": "公开视频线索；公开放映仍需确认片方或上传方授权。"
+        "source_kind": "raw_upload",
+        "display_label": "生肉"
       }
     ],
     "sources": [
@@ -687,7 +704,7 @@
         "reliability": "secondary"
       }
     ],
-    "summary": "第一部系统讲 Detroit Techno 深层根源的纪录片，把 1967 暴动、去工业化、地下派对和 Belleville Three 连接起来。",
+    "summary": "Gary Bredow 的纪录片把 techno 的诞生放回 Detroit 的城市史与黑人音乐语境：1967 年骚乱、去工业化、地下派对、Belleville Three、独立厂牌与电台共同塑造了机器感十足却带有灵魂的未来声音，也解释它为何从地方场景变成全球舞曲语言。",
     "core_argument": "Techno 不是欧洲夜生活进口品，而是底特律城市处境、黑人未来主义、电台、独立厂牌和机器声音共同生成的文化。",
     "note_path": "纪录片卡片/High Tech Soul The Creation of Techno Music.md"
   },
@@ -766,8 +783,7 @@
         "reliability": "platform",
         "region": "unknown",
         "subtitle": "unknown",
-        "public_screening": "permission_required",
-        "note": "公开视频线索；公开放映仍需确认片方或上传方授权。"
+        "public_screening": "permission_required"
       },
       {
         "platform": "Closer Productions",
@@ -790,7 +806,7 @@
         "title": "closerproductions.com.au",
         "url": "https://www.closerproductions.com.au/shortform/what-the-future-sounded-like",
         "type": "source",
-        "reliability": "uncertain"
+        "reliability": "official"
       },
       {
         "title": "imdb.com",
@@ -799,7 +815,7 @@
         "reliability": "secondary"
       }
     ],
-    "summary": "短片回到英国 Electronic Music Studios，讲 EMS、VCS3 和一批作曲家/工程师如何重新定义 1960-70 年代的电子声音，并影响 Pink Floyd、Roxy Music、Brian Eno 等。",
+    "summary": "Matthew Bate 的短片回到伦敦 Electronic Music Studios，讲 Peter Zinovieff、Tristram Cary、David Cockerell 如何把计算机、磁带和 VCS3/Synthi 接入声音实验。它解释英国未来声响如何影响 Pink Floyd、Roxy Music、Brian Eno 等。",
     "core_argument": "电子音乐史中的关键节点不只是音乐人，也包括工程师、设备公司、工作室和可被复制流通的声音工具。",
     "note_path": "纪录片卡片/What the Future Sounded Like.md"
   },
@@ -878,21 +894,23 @@
     },
     "watch_channels": [
       {
-        "platform": "Dub Echoes official site",
-        "url": "https://dubechoes.com/home/",
-        "access_type": "unknown",
-        "reliability": "official",
-        "region": "unknown",
-        "subtitle": "unknown",
-        "public_screening": "permission_required"
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1F841137BB/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
+        "public_screening": "permission_required",
+        "source_kind": "fan_sub",
+        "display_label": "中文字幕"
       }
     ],
     "sources": [
       {
         "title": "dubechoes.com",
         "url": "https://dubechoes.com/home/",
-        "type": "source",
-        "reliability": "uncertain"
+        "type": "official",
+        "reliability": "official"
       },
       {
         "title": "imdb.com",
@@ -907,7 +925,7 @@
         "reliability": "uncertain"
       }
     ],
-    "summary": "追溯 Jamaican dub 的源头，以及 version、sound system、studio as instrument 如何影响 hip-hop、electronic music、remix 和 bass culture。",
+    "summary": "Bruno Natal 的纪录片从 Kingston 的 sound system、dubplate、混音台和录音室实践出发，追踪 King Tubby、Lee Perry、Prince Jammy 到 hip-hop、drum and bass、dubstep 与 remix 文化的回声。它把“录音室作为乐器”放进全球电子低频史中。",
     "core_argument": "Dub 是理解 remix、delay/reverb、低频、DJ/producer 角色转换的关键前史。",
     "note_path": "纪录片卡片/Dub Echoes.md"
   },
@@ -985,13 +1003,15 @@
     },
     "watch_channels": [
       {
-        "platform": "正文观看渠道待拆分",
-        "access_type": "unknown",
-        "reliability": "uncertain",
-        "region": "unknown",
-        "subtitle": "unknown",
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1Jx411F7gG/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "no_sub",
         "public_screening": "permission_required",
-        "note": "现有卡片正文记录了观看线索，但尚未拆分成平台级结构。"
+        "source_kind": "raw_upload",
+        "display_label": "生肉"
       }
     ],
     "sources": [
@@ -1008,7 +1028,7 @@
         "reliability": "secondary"
       }
     ],
-    "summary": "BBC Four 梳理英国 post-punk 到 synth-pop 的电子化转向，从实验边缘、工业城市和便宜合成器进入排行榜流行。",
+    "summary": "BBC Four 纪录片梳理英国 post-punk 到 synth-pop 的电子化转向，从 A Clockwork Orange、Kraftwerk、工业城市和廉价合成器进入 Gary Numan、Human League、Depeche Mode、Soft Cell 等排行榜流行。它解释英国电子流行如何从实验边缘变成大众语言。",
     "core_argument": "它说明电子音乐如何从实验和反摇滚姿态进入主流 pop，并通过英国工业城市和青年文化重新编码。",
     "note_path": "纪录片卡片/Synth Britannia.md"
   },
@@ -1097,6 +1117,17 @@
         "region": "unknown",
         "subtitle": "unknown",
         "public_screening": "permission_required"
+      },
+      {
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1RW411B7w2/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "no_sub",
+        "public_screening": "permission_required",
+        "source_kind": "raw_upload",
+        "display_label": "生肉"
       }
     ],
     "sources": [
@@ -1119,7 +1150,7 @@
         "reliability": "secondary"
       }
     ],
-    "summary": "关于 Delia Derbyshire 的短片，以声音拼贴和视觉实验回应她在 BBC Radiophonic Workshop 的创作方法。",
+    "summary": "Kara Blake 的短片以声音拼贴、档案影像和动画进入 Delia Derbyshire 的创作世界，回应她在 BBC Radiophonic Workshop 的磁带剪辑、电子声响和广播音乐实践。它不只是传记，也用形式模仿 Derbyshire 的声音思维。",
     "core_argument": "作为短片，它能把 Delia Derbyshire 从 Doctor Who 主题曲的单点神话中解放出来，放回电声、磁带和女性创作史。",
     "note_path": "纪录片卡片/The Delian Mode.md"
   },
@@ -1197,13 +1228,15 @@
     },
     "watch_channels": [
       {
-        "platform": "Plex",
-        "url": "https://watch.plex.tv/movie/krautrock-the-rebirth-of-germany",
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1GA411B72X/",
         "access_type": "free",
-        "reliability": "platform",
-        "region": "unknown",
-        "subtitle": "unknown",
-        "public_screening": "permission_required"
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
+        "public_screening": "permission_required",
+        "source_kind": "fan_sub",
+        "display_label": "中文字幕"
       }
     ],
     "sources": [
@@ -1220,7 +1253,7 @@
         "reliability": "platform"
       }
     ],
-    "summary": "BBC Four 讲战后德国青年如何摆脱英美摇滚和纳粹阴影，以重复、机器感、工作室实验和 motorik 节奏发明新的声音身份。",
+    "summary": "BBC Four 纪录片把 Can、Neu!、Faust、Tangerine Dream、Kraftwerk 等放回战后西德青年文化，讨论他们如何摆脱英美摇滚范式和纳粹阴影，用 motorik 节奏、磁带、工作室实验与机器感发明新的德国声音身份。",
     "core_argument": "Krautrock 是电子音乐史中“国家身份、战后创伤、工作室技术和未来主义”交叉的关键节点。",
     "note_path": "纪录片卡片/Krautrock The Rebirth of Germany.md"
   },
@@ -1297,18 +1330,31 @@
         "url": "https://tubitv.com/movies/486466/copyright-criminals",
         "access_type": "free",
         "reliability": "platform",
-        "region": "unknown",
+        "region": "US",
         "subtitle": "unknown",
         "public_screening": "permission_required"
       },
       {
-        "platform": "Plex",
-        "url": "https://watch.plex.tv/movie/copyright-criminals",
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1sp4y1674K/",
         "access_type": "free",
-        "reliability": "platform",
-        "region": "unknown",
-        "subtitle": "unknown",
-        "public_screening": "permission_required"
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "no_sub",
+        "public_screening": "permission_required",
+        "source_kind": "raw_upload",
+        "display_label": "生肉"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch?v=5kN8hugndG8",
+        "access_type": "free",
+        "reliability": "secondary",
+        "region": "global",
+        "subtitle": "en_auto",
+        "public_screening": "permission_required",
+        "source_kind": "public_full_upload",
+        "display_label": "YouTube/完整片线索"
       }
     ],
     "sources": [
@@ -1319,19 +1365,25 @@
         "reliability": "platform"
       },
       {
-        "title": "watch.plex.tv",
-        "url": "https://watch.plex.tv/movie/copyright-criminals",
-        "type": "platform",
-        "reliability": "platform"
+        "title": "independentlens.org",
+        "url": "https://www.pbs.org/independentlens/documentaries/copyright-criminals/",
+        "type": "broadcaster",
+        "reliability": "institution"
       },
       {
         "title": "en.wikipedia.org",
         "url": "https://en.wikipedia.org/wiki/Copyright_Criminals",
         "type": "wiki",
         "reliability": "secondary"
+      },
+      {
+        "title": "Alphabet Entertainment YouTube - Copyright Criminals full movie",
+        "url": "https://www.youtube.com/watch?v=5kN8hugndG8",
+        "type": "platform",
+        "reliability": "secondary"
       }
     ],
-    "summary": "讨论采样的艺术价值、商业价值、版权法和 hip-hop/remix 文化之间的冲突。",
+    "summary": "PBS Independent Lens 纪录片，围绕 hip-hop 与 remix 文化中的采样展开，讨论 Public Enemy、De La Soul、Clyde Stubblefield、George Clinton 等案例如何把声音再利用推向艺术、商业和版权法的冲突现场。",
     "core_argument": "采样不是简单盗用，而是电子音乐和 hip-hop 制作中关于记忆、权力、法律和再创作的核心技术。",
     "note_path": "纪录片卡片/Copyright Criminals.md"
   },
@@ -1414,8 +1466,29 @@
         "reliability": "secondary",
         "region": "unknown",
         "subtitle": "unknown",
-        "public_screening": "private_research_only",
-        "note": "可看线索，公开使用前需另核授权。"
+        "public_screening": "permission_required"
+      },
+      {
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1yuAfzwE7k/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
+        "public_screening": "permission_required",
+        "source_kind": "fan_sub",
+        "display_label": "中文字幕"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch?v=YVcX0Oc5j5E",
+        "access_type": "free",
+        "reliability": "official",
+        "region": "global",
+        "subtitle": "en_auto",
+        "public_screening": "permission_required",
+        "source_kind": "host_upload",
+        "display_label": "YouTube/完整片"
       }
     ],
     "sources": [
@@ -1430,9 +1503,15 @@
         "url": "https://www.theguardian.com/music/musicblog/2010/oct/07/bassweight-dubstep-documentary-future",
         "type": "source",
         "reliability": "uncertain"
+      },
+      {
+        "title": "GetDarker YouTube - Bassweight full documentary",
+        "url": "https://www.youtube.com/watch?v=YVcX0Oc5j5E",
+        "type": "platform",
+        "reliability": "official"
       }
     ],
-    "summary": "记录 dubstep 形成期的 Croydon/FWD/DMZ 场景和一批核心制作人、DJ、MC 与广播推手。",
+    "summary": "Bassweight 在 dubstep 仍处上升期时拍摄，记录 Croydon、FWD、DMZ、Rinse 等场景，以及 Skream、Benga、Kode9、Mary Anne Hobbs 等人物。它不是回顾式定论，而是捕捉地下低频音乐如何向欧洲、巴西、日本扩散的现场档案。",
     "core_argument": "它捕捉了 dubstep 在全球商业化前的低频文化、地下空间和声音伦理。",
     "note_path": "纪录片卡片/Bassweight A Dubstep Documentary.md"
   },
@@ -1521,14 +1600,25 @@
         "region": "unknown",
         "subtitle": "unknown",
         "public_screening": "permission_required"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch?v=0h721lQrrjk",
+        "access_type": "free",
+        "reliability": "official",
+        "region": "global",
+        "subtitle": "en_auto",
+        "public_screening": "permission_required",
+        "source_kind": "director_upload",
+        "display_label": "YouTube/导演上传版"
       }
     ],
     "sources": [
       {
         "title": "watch.tsob.be",
         "url": "https://watch.tsob.be/",
-        "type": "source",
-        "reliability": "uncertain"
+        "type": "official",
+        "reliability": "official"
       },
       {
         "title": "justwatch.com",
@@ -1541,9 +1631,15 @@
         "url": "https://www.idfa.nl/en/film/f03fc7d7-6be3-4a78-867c-93b0f91b57d8/the-sound-of-belgium/",
         "type": "festival",
         "reliability": "institution"
+      },
+      {
+        "title": "Jozef Devill? YouTube - The Sound of Belgium director's cut",
+        "url": "https://www.youtube.com/watch?v=0h721lQrrjk",
+        "type": "platform",
+        "reliability": "official"
       }
     ],
-    "summary": "讲比利时舞曲从 Popcorn、EBM、New Beat 到大型俱乐部和电子舞曲工业的历史。",
+    "summary": "Jozef Devillé 追踪比利时舞曲从 Popcorn、EBM、New Beat 到大型俱乐部和电子舞曲工业的历史。影片补足英美德中心叙事之外的欧洲线索，展示小国、语言边界、夜店基础设施和唱片流通如何塑造独特电子声音与舞池身份，也解释 Belgium 为何在欧洲舞曲版图中重要。",
     "core_argument": "它补足电子舞曲史中过度英美德中心的问题，展示小国、语言交界和俱乐部基础设施如何生成独特声音。",
     "note_path": "纪录片卡片/The Sound of Belgium.md"
   },
@@ -1617,6 +1713,15 @@
     },
     "watch_channels": [
       {
+        "platform": "Plex",
+        "url": "https://watch.plex.tv/movie/i-dream-of-wires",
+        "access_type": "free",
+        "reliability": "platform",
+        "region": "unknown",
+        "subtitle": "unknown",
+        "public_screening": "permission_required"
+      },
+      {
         "platform": "MonoDuo shop",
         "url": "https://www.monoduo.net/i-dream-of-wires-shop/",
         "access_type": "purchase",
@@ -1624,6 +1729,17 @@
         "region": "unknown",
         "subtitle": "unknown",
         "public_screening": "permission_required"
+      },
+      {
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1Pi4y1K7ZZ/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
+        "public_screening": "permission_required",
+        "source_kind": "fan_sub",
+        "display_label": "中文字幕"
       }
     ],
     "sources": [
@@ -1634,13 +1750,19 @@
         "reliability": "distributor"
       },
       {
+        "title": "watch.plex.tv",
+        "url": "https://watch.plex.tv/movie/i-dream-of-wires",
+        "type": "platform",
+        "reliability": "platform"
+      },
+      {
         "title": "imdb.com",
         "url": "https://www.imdb.com/title/tt3636334/",
         "type": "database",
         "reliability": "secondary"
       }
     ],
-    "summary": "以模块合成器为主轴，梳理其从学院和实验室到流行音乐、衰落，再到 Eurorack/DIY 复兴的过程。",
+    "summary": "Robert Fantinatto 的纪录片以模块合成器为核心，追踪它从学院、实验室和大型系统进入流行音乐，再因数字合成器退潮，最后在 Eurorack、DIY 厂牌和新一代电子音乐人中复兴。影片强调 patching、控制界面和社群制造如何共同塑造声音文化。",
     "core_argument": "模块合成器史说明电子音乐不只是声音风格，还是界面、控制、patching、社群和制造业的历史。",
     "note_path": "纪录片卡片/I Dream of Wires.md"
   },
@@ -1654,8 +1776,8 @@
     ],
     "year": "2015",
     "sort_year": 2015,
-    "runtime": "约 94 min; 部分资料标 107 min",
-    "runtime_minutes": 107,
+    "runtime": "94 min",
+    "runtime_minutes": 94,
     "directors": [
       "Alexander Dunn"
     ],
@@ -1714,29 +1836,40 @@
     "watch_channels": [
       {
         "platform": "Apple TV",
-        "url": "https://tv.apple.com/gb/movie/808/umc.cmc.5tsjwlv888qfbelx9hcq8tufg",
+        "url": "https://tv.apple.com/us/movie/808/umc.cmc.5tsjwlv888qfbelx9hcq8tufg",
         "access_type": "rental",
         "reliability": "platform",
         "region": "unknown",
         "subtitle": "unknown",
         "public_screening": "permission_required"
+      },
+      {
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1zb411j7pj/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "no_sub",
+        "public_screening": "permission_required",
+        "source_kind": "raw_upload",
+        "display_label": "生肉"
       }
     ],
     "sources": [
       {
         "title": "tv.apple.com",
-        "url": "https://tv.apple.com/gb/movie/808/umc.cmc.5tsjwlv888qfbelx9hcq8tufg",
+        "url": "https://tv.apple.com/us/movie/808/umc.cmc.5tsjwlv888qfbelx9hcq8tufg",
         "type": "platform",
         "reliability": "platform"
       },
       {
-        "title": "moviefone.com",
-        "url": "https://www.moviefone.com/movie/808/20071090/main/",
-        "type": "database",
-        "reliability": "secondary"
+        "title": "justwatch.com",
+        "url": "https://www.justwatch.com/us/movie/808",
+        "type": "platform",
+        "reliability": "platform"
       }
     ],
-    "summary": "讲 Roland TR-808 鼓机从商业失败产品变成 hip-hop、electro、dance-pop 和现代制作语言底座的过程。",
+    "summary": "Alexander Dunn 的纪录片聚焦 Roland TR-808：这台早期商业失败的鼓机如何在 Afrika Bambaataa、Arthur Baker、hip-hop、electro、dance-pop 和现代制作中成为低频、节奏与机器身体感的标准语言。它把硬件价格、二手流通和全球流行工业连在一起。",
     "core_argument": "一台机器的历史可以解释声音审美、价格、二手市场、黑人音乐和全球流行工业之间的关系。",
     "note_path": "纪录片卡片/808.md"
   },
@@ -1813,6 +1946,17 @@
         "region": "unknown",
         "subtitle": "unknown",
         "public_screening": "permission_required"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch?v=YOhSRBGq70Y",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "unknown",
+        "subtitle": "no_sub",
+        "public_screening": "permission_required",
+        "source_kind": "raw_upload",
+        "display_label": "YouTube/生肉"
       }
     ],
     "sources": [
@@ -1820,7 +1964,7 @@
         "title": "justwatch.com",
         "url": "https://www.justwatch.com/us/movie/a-life-in-waves",
         "type": "platform",
-        "reliability": "secondary"
+        "reliability": "platform"
       },
       {
         "title": "watch.plex.tv",
@@ -1829,7 +1973,7 @@
         "reliability": "platform"
       }
     ],
-    "summary": "讲 Suzanne Ciani 的职业路径：Buchla、广告声音设计、商业声标、电子音乐创作和新世纪/实验音乐之间的移动。",
+    "summary": "Brett Whitcomb 的纪录片以 Suzanne Ciani 为中心，串联 Buchla 合成器、广告声音设计、商业声标、电影电视配乐、新世纪音乐和现场四声道表演。影片展示一位女性电子音乐家如何在商业与实验、声音品牌与个人创作之间移动。",
     "core_argument": "它展示电子声音如何进入广告、媒体、商业声响与艺术创作，也补足女性先驱不只在实验室内部的历史。",
     "note_path": "纪录片卡片/A Life in Waves.md"
   },
@@ -1904,6 +2048,15 @@
         "region": "unknown",
         "subtitle": "unknown",
         "public_screening": "permission_required"
+      },
+      {
+        "platform": "JustWatch",
+        "url": "https://www.justwatch.com/de/Film/Denk-ich-an-Deutschland-in-der-Nacht",
+        "access_type": "rental",
+        "reliability": "platform",
+        "region": "Germany",
+        "subtitle": "unknown",
+        "public_screening": "permission_required"
       }
     ],
     "sources": [
@@ -1930,9 +2083,15 @@
         "url": "https://www.viennale.at/de/film/denk-ich-deutschland-der-nacht-omeu",
         "type": "festival",
         "reliability": "institution"
+      },
+      {
+        "title": "justwatch.com",
+        "url": "https://www.justwatch.com/de/Film/Denk-ich-an-Deutschland-in-der-Nacht",
+        "type": "platform",
+        "reliability": "platform"
       }
     ],
-    "summary": "观察五位德国/欧洲 techno 场景人物的 studio、club、后台和日常，将 techno 拍成一种长期建构的社会时间。",
+    "summary": "Romuald Karmakar 观察 Ata、Roman Flügel、Sonja Moonear、David Moufang、Ricardo Villalobos 等德国及欧洲 techno 人物的工作与日常。影片少用历史旁白，而是通过 studio、club、后台和清晨时刻，把 techno 拍成长期建构的社会时间。",
     "core_argument": "影片不做德国 techno 通史，而是把 techno 理解为重复、等待、调试、集体同步和夜晚维护。",
     "note_path": "纪录片卡片/If I Think of Germany at Night.md"
   },
@@ -2012,15 +2171,6 @@
         "region": "unknown",
         "subtitle": "unknown",
         "public_screening": "permission_required"
-      },
-      {
-        "platform": "Disney+",
-        "url": "https://www.disneyplus.com/en-gb/browse/entity-8e52646f-59fb-4939-962b-ae239607aa99",
-        "access_type": "subscription",
-        "reliability": "platform",
-        "region": "unknown",
-        "subtitle": "unknown",
-        "public_screening": "permission_required"
       }
     ],
     "sources": [
@@ -2031,19 +2181,13 @@
         "reliability": "distributor"
       },
       {
-        "title": "disneyplus.com",
-        "url": "https://www.disneyplus.com/en-gb/browse/entity-8e52646f-59fb-4939-962b-ae239607aa99",
-        "type": "platform",
-        "reliability": "platform"
-      },
-      {
         "title": "imdb.com",
         "url": "https://www.imdb.com/title/tt11027528/",
         "type": "database",
         "reliability": "secondary"
       }
     ],
-    "summary": "通过 Detroit Techno 核心人物讲 techno 厂牌、独立生产、城市废墟、抵抗与未来想象。",
+    "summary": "Jacqueline Caux 以访谈和观察进入 Detroit techno 的抵抗叙事，聚焦 Underground Resistance、Jeff Mills、Mad Mike、Robert Hood 等人物。影片把 techno 看成独立生产、城市废墟、黑人未来主义和政治姿态共同构成的音乐实践。",
     "core_argument": "Detroit Techno 的政治性不只来自歌词，而来自独立生产、去中心化厂牌、自组织网络和从废墟中制造未来的实践。",
     "note_path": "纪录片卡片/Never Stop A Music That Resists.md"
   },
@@ -2125,13 +2269,15 @@
     },
     "watch_channels": [
       {
-        "platform": "正文观看渠道待拆分",
-        "access_type": "unknown",
-        "reliability": "uncertain",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch?v=9Rah1F1zq1k&list=PLQnhjB-di_YYOQ5MQX-nfXpjHbyUhios4",
+        "access_type": "free",
+        "reliability": "secondary",
         "region": "unknown",
-        "subtitle": "unknown",
+        "subtitle": "no_sub",
         "public_screening": "permission_required",
-        "note": "现有卡片正文记录了观看线索，但尚未拆分成平台级结构。"
+        "source_kind": "playlist_partial",
+        "display_label": "YouTube/系列线索"
       }
     ],
     "sources": [
@@ -2148,7 +2294,7 @@
         "reliability": "secondary"
       }
     ],
-    "summary": "三集式 dance music 总览，以 beat、club、DJ 等线索把 disco、house、techno、EDM 主流化连接起来。",
+    "summary": "BBC Four / Eagle Rock 三集总览，把 dance music 的全球化拆成 beat、club、DJ 等主题，串联 disco、house、techno、rave、EDM 和主流流行工业。它适合作为舞曲史的电视入口，但策展上比单一场景纪录片更宏观、也更简化。",
     "core_argument": "适合普通观众快速理解舞曲如何从地下舞池进入全球流行和节庆工业。",
     "note_path": "纪录片卡片/Can You Feel It How Dance Music Conquered the World.md"
   },
@@ -2225,19 +2371,30 @@
       {
         "platform": "Frieze",
         "url": "https://www.frieze.com/video/everybody-place-incomplete-history-britain-1984-1992",
-        "access_type": "free",
+        "access_type": "subscription",
         "reliability": "institution",
         "region": "unknown",
         "subtitle": "unknown",
         "public_screening": "permission_required"
+      },
+      {
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV18J411K7fV/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
+        "public_screening": "permission_required",
+        "source_kind": "fan_sub",
+        "display_label": "中文字幕"
       }
     ],
     "sources": [
       {
         "title": "frieze.com",
         "url": "https://www.frieze.com/video/everybody-place-incomplete-history-britain-1984-1992",
-        "type": "source",
-        "reliability": "uncertain"
+        "type": "institution",
+        "reliability": "institution"
       },
       {
         "title": "film-documentaire.fr",
@@ -2252,7 +2409,7 @@
         "reliability": "institution"
       }
     ],
-    "summary": "Jeremy Deller 面向一班 16 岁学生讲述英国 1984-1992 年 acid house/rave 如何与 Thatcher 时代社会史、阶级、矿工罢工和青年文化互相纠缠。",
+    "summary": "Jeremy Deller 面向一班学生讲述英国 1984-1992 年 acid house 和 rave 如何与 Thatcher 时代社会史、阶级、矿工罢工、旅行者文化和青年空间政治互相纠缠。影片把舞池从娱乐现场重新读成社会运动和公共文化。",
     "core_argument": "Rave 不是逃避现实，而是一种可以和社会运动、空间政治、法律与阶级经验对读的公共文化。",
     "note_path": "纪录片卡片/Everybody in the Place.md"
   },
@@ -2266,10 +2423,9 @@
     ],
     "year": "2018",
     "sort_year": 2018,
-    "runtime": "BBC Four 系列; 常见每集约 58-59 min; 集数需继续核验",
-    "runtime_minutes": 59,
+    "runtime": "2 x 59 min",
+    "runtime_minutes": 118,
     "directors": [
-      "BBC Four",
       "Charles Hazlewood"
     ],
     "countries": [
@@ -2325,21 +2481,23 @@
     },
     "watch_channels": [
       {
-        "platform": "正文观看渠道待拆分",
-        "access_type": "unknown",
-        "reliability": "uncertain",
-        "region": "unknown",
-        "subtitle": "unknown",
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1aW411s7NY/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
         "public_screening": "permission_required",
-        "note": "现有卡片正文记录了观看线索，但尚未拆分成平台级结构。"
+        "source_kind": "my_upload",
+        "display_label": "我的字幕"
       }
     ],
     "sources": [
       {
-        "title": "letterboxd.com",
-        "url": "https://letterboxd.com/film/tones-drones-and-arpeggios-the-magic-of-minimalism/watch/",
-        "type": "database",
-        "reliability": "secondary"
+        "title": "charleshazlewood.com",
+        "url": "https://www.charleshazlewood.com/tones-drones-and-arpeggios-1",
+        "type": "official",
+        "reliability": "official"
       },
       {
         "title": "themoviedb.org",
@@ -2348,7 +2506,7 @@
         "reliability": "secondary"
       }
     ],
-    "summary": "以极简主义为主题，讲重复、drone、arpeggio、相位和长时结构如何改变现代作曲，也影响 ambient、sequencer-based music 和 techno。",
+    "summary": "Charles Hazlewood 主持的 BBC Four 两集纪录片，以 La Monte Young、Terry Riley、Steve Reich、Philip Glass 等人为中心解释极简主义。它不是狭义电子音乐史，却能帮助理解 drone、重复、相位、琶音和长时结构如何进入 ambient 与 techno 的听觉逻辑。",
     "core_argument": "它不是电子音乐纪录片狭义主干，但对理解重复、drone 和时间结构极关键。",
     "note_path": "纪录片卡片/Tones Drones and Arpeggios.md"
   },
@@ -2431,8 +2589,18 @@
         "reliability": "user_upload",
         "region": "China",
         "subtitle": "unknown",
-        "public_screening": "not_recommended",
-        "note": "用户上传或搬运线索，不作为公开放映依据。"
+        "public_screening": "permission_required"
+      },
+      {
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1ks4y1A721/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
+        "public_screening": "permission_required",
+        "source_kind": "fan_sub",
+        "display_label": "中文字幕"
       }
     ],
     "sources": [
@@ -2440,13 +2608,13 @@
         "title": "justwatch.com",
         "url": "https://www.justwatch.com/us/movie/sisters-with-transistors",
         "type": "platform",
-        "reliability": "secondary"
+        "reliability": "platform"
       },
       {
-        "title": "rottentomatoes.com",
-        "url": "https://www.rottentomatoes.com/m/sisters_with_transistors",
-        "type": "database",
-        "reliability": "secondary"
+        "title": "sisterswithtransistors.com",
+        "url": "https://www.sisterswithtransistors.com/",
+        "type": "official",
+        "reliability": "official"
       },
       {
         "title": "bilibili.com",
@@ -2455,9 +2623,430 @@
         "reliability": "user_upload"
       }
     ],
-    "summary": "以 Laurie Anderson 旁白重新书写电子音乐女性先驱谱系，呈现她们如何借助特雷门、磁带、合成器、反馈和计算机声音突破男性主导的音乐制度。",
+    "summary": "Lisa Rovner 以 Laurie Anderson 旁白重写电子音乐女性先驱谱系，呈现 Clara Rockmore、Daphne Oram、Bebe Barron、Pauline Oliveros、Delia Derbyshire、Éliane Radigue、Suzanne Ciani 等如何借助机器技术改变声音生产。",
     "core_argument": "电子音乐史不能只写成男性工程师、乐队和俱乐部的历史；技术也可能成为被排除者进入创作和公共聆听的路径。",
     "note_path": "纪录片卡片/Sisters with Transistors.md"
+  },
+  {
+    "id": "the-rise-of-the-synths-2019",
+    "title": "The Rise of the Synths",
+    "original_title": "The Rise of the Synths",
+    "aliases": [
+      "A Synthwave Documentary",
+      "合成器的崛起"
+    ],
+    "year": "2019",
+    "sort_year": 2019,
+    "runtime": "82 min",
+    "runtime_minutes": 82,
+    "directors": [
+      "Ivan Castell"
+    ],
+    "countries": [
+      "Spain"
+    ],
+    "languages": [
+      "English"
+    ],
+    "grade": "A 重要影片",
+    "grade_code": "A",
+    "section": "Synthwave/复古未来主义",
+    "site_visibility": "core",
+    "themes": [
+      "Synthwave",
+      "复古未来主义",
+      "电影配乐"
+    ],
+    "genres": [
+      "synthwave",
+      "electronic music"
+    ],
+    "regions": [
+      "欧美"
+    ],
+    "cities": [],
+    "people": [
+      "John Carpenter",
+      "Kavinsky",
+      "Power Glove",
+      "Perturbator",
+      "Carpenter Brut"
+    ],
+    "labels": [],
+    "technologies": [
+      "synthesizer",
+      "retro soundtrack",
+      "internet scene"
+    ],
+    "periods": [
+      "1980s",
+      "2000s",
+      "2010s"
+    ],
+    "subtitle_status": "zh_sub",
+    "public_screening": "permission_required",
+    "poster": {
+      "path": "covers/rise_of_synths.jpg",
+      "source": "YouTube thumbnail",
+      "rights_status": "needs_review",
+      "alt": "Thumbnail for The Rise of the Synths"
+    },
+    "watch_channels": [
+      {
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1XB4y1j7iC/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
+        "public_screening": "permission_required",
+        "source_kind": "fan_sub",
+        "display_label": "中文字幕"
+      }
+    ],
+    "sources": [
+      {
+        "title": "theriseofthesynths.com",
+        "url": "https://theriseofthesynths.com/",
+        "type": "official",
+        "reliability": "official"
+      },
+      {
+        "title": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=usnW-CsFVwI",
+        "type": "platform",
+        "reliability": "official"
+      },
+      {
+        "title": "bilibili.com",
+        "url": "https://www.bilibili.com/video/BV1XB4y1j7iC/",
+        "type": "platform",
+        "reliability": "user_upload"
+      }
+    ],
+    "summary": "由 Ivan Castell 编导、John Carpenter 旁白，追踪 synthwave 从 80 年代电影配乐、街机和 VHS 美学中复兴，并经互联网社群、独立音乐人和视觉文化扩散为复古未来主义场景。它更适合作为电子音乐视觉文化与亚文化的延展补充。",
+    "core_argument": "它把 synthwave 放在怀旧媒体、电影配乐和网络社群的交汇处，说明电子音乐也会通过图像、游戏和影迷文化形成新场景。",
+    "note_path": "候选片目/The Rise of the Synths.md"
+  },
+  {
+    "id": "break-the-wall-2019",
+    "title": "Break_The_Wall",
+    "original_title": "Break_The_Wall",
+    "aliases": [
+      "20 Years of China's Electronic Music",
+      "Break the Wall China",
+      "中国电子音乐纪录片《Break_The_Wall》"
+    ],
+    "year": "2019",
+    "sort_year": 2019,
+    "runtime": "67 min",
+    "runtime_minutes": 67,
+    "directors": [
+      "Break the Wall team"
+    ],
+    "countries": [
+      "China"
+    ],
+    "languages": [
+      "Chinese",
+      "English"
+    ],
+    "grade": "A 重要影片",
+    "grade_code": "A",
+    "section": "中国电子音乐/场景史",
+    "site_visibility": "core",
+    "themes": [
+      "中国电子音乐",
+      "场景史",
+      "club culture"
+    ],
+    "genres": [
+      "electronic music",
+      "dance music"
+    ],
+    "regions": [
+      "中国"
+    ],
+    "cities": [],
+    "people": [],
+    "labels": [],
+    "technologies": [
+      "DJ culture",
+      "club infrastructure"
+    ],
+    "periods": [
+      "1990s",
+      "2000s",
+      "2010s"
+    ],
+    "subtitle_status": "zh_sub",
+    "public_screening": "permission_required",
+    "poster": {
+      "path": "covers/break_the_wall.jpg",
+      "source": "local title card",
+      "rights_status": "needs_review",
+      "alt": "Thumbnail for Break_The_Wall"
+    },
+    "watch_channels": [
+      {
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV17g411V714/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
+        "public_screening": "permission_required",
+        "source_kind": "fan_sub",
+        "display_label": "中文字幕"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch?v=SRRRvLnIrxo",
+        "access_type": "free",
+        "reliability": "official",
+        "region": "global",
+        "subtitle": "unknown",
+        "public_screening": "permission_required",
+        "source_kind": "official_upload",
+        "display_label": "官方上传"
+      }
+    ],
+    "sources": [
+      {
+        "title": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=SRRRvLnIrxo",
+        "type": "platform",
+        "reliability": "official"
+      },
+      {
+        "title": "bilibili.com",
+        "url": "https://www.bilibili.com/video/BV17g411V714/",
+        "type": "platform",
+        "reliability": "user_upload"
+      },
+      {
+        "title": "iqiyi.com",
+        "url": "https://www.iqiyi.com/v_19rrecpp04.html",
+        "type": "platform",
+        "reliability": "platform"
+      }
+    ],
+    "summary": "这部片以 20 Years of China's Electronic Music 为英文传播标题，由 Break the Wall 团队梳理中国电子舞曲与俱乐部文化的发展线索，覆盖早期派对、DJ、厂牌、场地和城市网络。作为中文语境资料，它适合放在延展片单中补足本土场景。",
+    "core_argument": "它的价值在于补足西方电子音乐史之外的中国场景，把舞曲传播、俱乐部和本地组织者联系起来。",
+    "note_path": "候选片目/Break_The_Wall.md"
+  },
+  {
+    "id": "sound-of-berlin-2018",
+    "title": "Sound of Berlin",
+    "original_title": "Sound of Berlin",
+    "aliases": [
+      "柏林之声",
+      "Sound of Berlin Documentary"
+    ],
+    "year": "2018",
+    "sort_year": 2018,
+    "runtime": "55 min",
+    "runtime_minutes": 55,
+    "directors": [
+      "Christian Lim",
+      "Rochdi A. Schmitt"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "languages": [
+      "English"
+    ],
+    "grade": "A 重要影片",
+    "grade_code": "A",
+    "section": "Berlin techno/城市声音",
+    "site_visibility": "core",
+    "themes": [
+      "Berlin techno",
+      "城市声音",
+      "club culture"
+    ],
+    "genres": [
+      "techno",
+      "electronic music"
+    ],
+    "regions": [
+      "德国",
+      "欧洲"
+    ],
+    "cities": [
+      "Berlin"
+    ],
+    "people": [
+      "Juan Atkins",
+      "Dr. Motte",
+      "Dimitri Hegemann",
+      "Marc Houle",
+      "Monolink",
+      "Pan-Pot"
+    ],
+    "labels": [],
+    "technologies": [
+      "club infrastructure",
+      "streaming playlist"
+    ],
+    "periods": [
+      "2010s"
+    ],
+    "subtitle_status": "unknown",
+    "public_screening": "permission_required",
+    "poster": {
+      "path": "covers/sound_of_berlin.jpg",
+      "source": "YouTube thumbnail",
+      "rights_status": "needs_review",
+      "alt": "Thumbnail for Sound of Berlin"
+    },
+    "watch_channels": [
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch?v=BF-fTJolMSM",
+        "access_type": "free",
+        "reliability": "official",
+        "region": "global",
+        "subtitle": "no_sub",
+        "public_screening": "permission_required",
+        "source_kind": "official_upload",
+        "display_label": "官方上传/生肉"
+      },
+      {
+        "platform": "Bilibili",
+        "url": "https://www.bilibili.com/video/BV1dt411b7Zp/",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "unknown",
+        "public_screening": "permission_required",
+        "source_kind": "raw_upload",
+        "display_label": "B站可看"
+      }
+    ],
+    "sources": [
+      {
+        "title": "lozen-films.com",
+        "url": "https://www.lozen-films.com/sound-of-berlin-en",
+        "type": "official",
+        "reliability": "official"
+      },
+      {
+        "title": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=BF-fTJolMSM",
+        "type": "platform",
+        "reliability": "official"
+      },
+      {
+        "title": "bilibili.com",
+        "url": "https://www.bilibili.com/video/BV1dt411b7Zp/",
+        "type": "platform",
+        "reliability": "user_upload"
+      }
+    ],
+    "summary": "官方上传标题为 Sound of Berlin Documentary，片子以柏林作为电子音乐城市样本，采访 Juan Atkins、Dr. Motte、Dimitri Hegemann、Marc Houle、Monolink、Pan-Pot 等人物，串联 techno、俱乐部空间、制作人生态与城市品牌。它更像城市切片，而非严格的流派史。",
+    "core_argument": "Berlin techno 不只是一种声音，也是由历史空间、夜生活经济、制作人网络和城市想象共同构成的文化品牌。",
+    "note_path": "候选片目/Sound of Berlin.md"
+  },
+  {
+    "id": "the-untold-history-of-disco-2022",
+    "title": "The Untold History of Disco",
+    "original_title": "The Untold History of Disco",
+    "aliases": [
+      "未被讲述的迪斯科史"
+    ],
+    "year": "2022",
+    "sort_year": 2022,
+    "runtime": "34 min",
+    "runtime_minutes": 34,
+    "directors": [
+      "Polyphonic"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "languages": [
+      "English"
+    ],
+    "grade": "A 重要影片",
+    "grade_code": "A",
+    "section": "Disco/相关议题",
+    "site_visibility": "core",
+    "themes": [
+      "Disco",
+      "舞池文化",
+      "酷儿文化"
+    ],
+    "genres": [
+      "disco",
+      "dance music"
+    ],
+    "regions": [
+      "美国"
+    ],
+    "cities": [
+      "New York"
+    ],
+    "people": [],
+    "labels": [],
+    "technologies": [
+      "DJ culture",
+      "club sound system"
+    ],
+    "periods": [
+      "1970s",
+      "2020s"
+    ],
+    "subtitle_status": "zh_sub",
+    "public_screening": "permission_required",
+    "poster": {
+      "path": "covers/untold_history_disco.jpg",
+      "source": "local",
+      "rights_status": "needs_review",
+      "alt": "Thumbnail for The Untold History of Disco"
+    },
+    "watch_channels": [
+      {
+        "platform": "Xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/67aa05a50000000029015e68",
+        "access_type": "free",
+        "reliability": "user_upload",
+        "region": "China",
+        "subtitle": "zh_sub",
+        "public_screening": "permission_required",
+        "source_kind": "my_upload",
+        "display_label": "我的字幕"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/watch?v=q_c2dCO5WLo",
+        "access_type": "free",
+        "reliability": "official",
+        "region": "global",
+        "subtitle": "no_sub",
+        "public_screening": "permission_required",
+        "source_kind": "official_upload",
+        "display_label": "YouTube/生肉"
+      }
+    ],
+    "sources": [
+      {
+        "title": "youtube.com",
+        "url": "https://www.youtube.com/watch?v=q_c2dCO5WLo",
+        "type": "platform",
+        "reliability": "official"
+      },
+      {
+        "title": "xiaohongshu.com",
+        "url": "https://www.xiaohongshu.com/explore/67aa05a50000000029015e68",
+        "type": "platform",
+        "reliability": "user_upload"
+      }
+    ],
+    "summary": "Polyphonic 的长篇 video essay 从黑人、拉丁裔和酷儿社群的舞池经验切入，重述 disco 在主流叙事之外的社会意义，并解释它如何影响 house、club culture 和后来的流行音乐。它不是传统纪录片，更适合作为舞池文化的相关补充。",
+    "core_argument": "Disco 到 house 的历史需要回到舞池、身体和少数社群，而不只是风格史或产业史。",
+    "note_path": "候选片目/The Untold History of Disco.md"
   },
   {
     "id": "how-music-got-free-2024",
